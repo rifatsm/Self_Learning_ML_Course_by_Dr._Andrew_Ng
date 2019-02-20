@@ -53,9 +53,9 @@
 
  		- Neural Network is likely to work well for most of these settings, but may be slower to train
 
-###################
-# Neural Networks #
-###################
+##################################
+# Neural Networks Representation #
+##################################
 
 # Lecture 8.1 — Neural Networks Representation | Non Linear Hypotheses — [Andrew Ng] 
  = https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43
@@ -88,3 +88,19 @@
 
 # Lecture 8.5 — Neural Networks Representation | Examples And Intuitions-I — [ Andrew Ng]
  = https://www.youtube.com/watch?v=0a19YIQgRL4&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=47
+ 	- (0:17) Non-linear classification example: XOR/XNOR
+ 	- (2:12) Simple AND Example
+ 	- (6:17) Simple OR Example 
+
+# Lecture 8.6 — Neural Networks Representation | Examples And Intuitions-II — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=0i9OhkbfNwE&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=48
+ 	- (0:20) Negation (~) Example
+ 	- (2:32) x1 XNOR x2
+ 		- Putting together AND, OR, (NOT x1) AND (NOT x2)
+ 	- (6:00) Neural Network Intuition 
+ 		- Interesting Example: Handwritten Digit Classification (Video)
+ 			- Video starts at (8:08)
+
+# Lecture 8.7 — Neural Networks Representation | MultiClass Classification — [Andrew Ng]
+ = https://www.youtube.com/watch?v=gAKQOZ5zIWg&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=49
+ 	- (0:28) Multiclass Classification Example
