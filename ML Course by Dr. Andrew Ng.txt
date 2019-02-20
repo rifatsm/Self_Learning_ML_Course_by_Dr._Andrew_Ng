@@ -1,0 +1,90 @@
+##################################
+# ML Course by Dr. Andrew Ng.txt #
+##################################
+
+###########################
+# Support Vector Machines #
+###########################
+
+# Lecture 12.1 — Support Vector Machines | Optimization Objective — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=hCOIMkcsm_g&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=70
+ 	- (3:00) Concept of Cost Function of SVM (in graph)
+ 	- (7:52) Logistic Regression vs SVM (Deriving SVM Cost Function equation)
+ 	- (13:52) SVM Hypothesis
+
+# Lecture 12.2 — Support Vector Machines | Large Margin Intuition — [Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=Ccje1EzrXBU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=71
+ 	- (0:15) Concept of Cost Function of SVM (in graph) (again)
+ 	- (4:42) SVM Decision Boundary: Linearly separable case, Large margin classifier
+ 	- (7:12) Presence of Outliers
+ 
+# Lecture 12.3 — Support Vector Machines | Mathematics Behind Large Margin Classification (Optional)
+ = https://www.youtube.com/watch?v=QKc3Tr7U4Xc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=72
+
+# Lecture 12.4 — Support Vector Machines | (Kernels-I) — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=mTyT-oHoivA&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=73
+ 	- (2:15) Kernel/Gaussian Kernal/Similarity Kernel
+ 	- (5:45) Kernels and Similarity 
+ 	- (8:25) Example
+
+# Lecture 12.5 — Support Vector Machines | (Kernels-II) — [Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=XfyR_49hfi8&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=74
+ 	- (2:15) SVM with Kernels
+ 	- (11:05) Why not use Kernels for in other ML algos? Why only SVM? - Dr. Ng explains that Kernels do not translate as well as they do with SVM, due to computational tricks.
+ 	- (12:45) How to choose parameters in SVM? 
+
+# Lecture 12.6 — Support Vector Machines | Using An SVM — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=FCUBwP-JTsA&index=75&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (0:15) Different Kernels
+ 	- (4:35) How to use Gaussian Kernel 
+ 		- Must do feature scalling before using Gaussian Kernels
+ 	- (8:35) Mercer's Theorem
+ 	- (12:55) Multiclass Classification
+ 	- (14:25) Logistic Regression vs SVM
+
+ 		- 1. If # of features (n) is higher than # of training examples (m), 
+ 		then use Logistic Regression or SVM without Kernel (Linear Kernel)
+
+ 		- 2. If n is small, m is intermediate,
+ 		then use SVM with Gaussian Kernel 
+
+ 		- 3. If n is small, m is large,
+ 		then create more features and use Logistic Regression or SVM without Kernel (Linear Kernel)
+
+ 		- Neural Network is likely to work well for most of these settings, but may be slower to train
+
+###################
+# Neural Networks #
+###################
+
+# Lecture 8.1 — Neural Networks Representation | Non Linear Hypotheses — [Andrew Ng] 
+ = https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43
+ 	
+ 	- (0:42) Non-linear Classification 
+ 		- Too many features 
+ 			- Possibility of Overfitting 
+ 			- Computationally Expensive 
+ 	
+ 	- (4:52) Why Computer Vision is hard
+
+# Lecture 8.2 — Neural Networks Representation | Neurons And The Brain — [Andrew Ng]
+ = https://www.youtube.com/watch?v=m3U1_Zv4_Ik&index=44&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+# Lecture 8.3 — Neural Networks Representation | Model Representation-I — [ Andrew Ng ]
+ = https://www.youtube.com/watch?v=EVeqrPGfuCY&index=45&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (0:15) Neurons in Brain 
+ 	- (2:42) Neuron model: Logistic Unit
+ 	- (5:32) Neural Networks (Mathematic Representation)
+
+# Lecture 8.4 — Neural Networks Representation | Model Representation-II — [Andrew Ng]
+ = https://www.youtube.com/watch?v=iPNN805konI&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=46
+ 	- (0:27) Forward Propagation: Vectorized Implementation 
+ 		- The superscript (2) means they are related with the layer 2 - which is the hidden layer 
+
+ 	- (5:58) Neural Network learning its own features 
+ 		- Similarity with Logistic Regression
+
+ 	- (9:47) Neural Network Architechture
+
+# Lecture 8.5 — Neural Networks Representation | Examples And Intuitions-I — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=0a19YIQgRL4&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=47
