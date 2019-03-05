@@ -140,5 +140,8 @@
 
 # Lecture 9.5 — Neural Networks Learning | Gradient Checking — [ Machine Learning | Andrew Ng]
  = https://www.youtube.com/watch?v=P6EtCVrvYPU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=54
+ 	- (0:00) [Issue] In the implementation of Backpropagation, we can have some bug. Still the Cost Function would decrease. As a result, it might be hard to detect the bug in the first place. 
+ 		= Solution: Gradient Checking
+ 	- (1:52) Numerical Estimation of Gradient 
  	- 
 
