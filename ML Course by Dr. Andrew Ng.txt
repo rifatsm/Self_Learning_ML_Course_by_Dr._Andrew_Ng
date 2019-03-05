@@ -104,3 +104,41 @@
 # Lecture 8.7 — Neural Networks Representation | MultiClass Classification — [Andrew Ng]
  = https://www.youtube.com/watch?v=gAKQOZ5zIWg&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=49
  	- (0:28) Multiclass Classification Example
+
+
+############################
+# Neural Networks Learning #
+############################
+
+# Lecture 9.1 — Neural Networks Learning | Cost Function — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=0twSSFZN9Mc&index=50&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	
+ 	- (0:22) Neural Network Classification
+ 		- Binary Classification
+ 		- Multi-class Classification
+
+ 	- (3:03) Cost Function
+
+# Lecture 9.2 — Neural Networks Learning | Backpropagation Algorithm — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=x_Eamf8MHwU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=51
+ 	- (0:12) Gradient Computation 
+ 	- (1:02) Gradient Computation: For One Training Sample 
+ 		- Forward Propagation
+ 	- (2:31) Gradient Computation: Backpropagation
+ 		- DELTA error 
+ 	- (7:58) Backpropagation Algorithm
+
+# Lecture 9.3 — Neural Networks Learning | Backpropagation Intuition — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=mOmkv5SI9hU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=52
+ 	- (1:35) Forward Propagation
+ 	- (5:10) What Backpropagation is doing? 
+ 		- Backpropagation Intuition
+
+# Lecture 9.4 — Neural Networks Learning | Implementation Note Unrolling Parameters — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=dlEoLfA4MSQ&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=53
+ 	- (0:20) Advanced Optimization
+
+# Lecture 9.5 — Neural Networks Learning | Gradient Checking — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=P6EtCVrvYPU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=54
+ 	- 
+
