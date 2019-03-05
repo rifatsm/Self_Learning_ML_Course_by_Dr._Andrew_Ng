@@ -189,5 +189,77 @@
  = https://medium.com/coinmonks/backpropagation-concept-explained-in-5-levels-of-difficulty-8b220a939db5
 
 
+# Lecture 10.1 — Advice For Applying Machine Learning | Deciding What To Try Next — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=sZSKGNbrwus&index=58&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (1:10) Debugging a learning algorithm
+ 		- Get more training examples
+ 			- It does NOT help all the time
+ 		- Try smaller sets of features
+ 		- Try getting additional features
+ 		- Try adding polynomial features
+ 		- Try increasing/ decreasing LAMBDA
+ 	- (4:42) Machine Learning Diagnostic
 
+# Lecture 10.2 — Advice For Applying Machine Learning | Evaluating A Hypothesis — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=BpgnnS7mKKU&index=59&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (1:13) How to evaluate your hypothesis?
+ 		- Split the whole dataset into Training Set (70%) and Testing Set (30%)
+ 		- Even better: Randomly shuffle the dataset and then split into 70/30
+ 	- (3:43) Training/testing procedure for Linear regression
+ 	- (5:13) Training/testing procedure for Logistic regression
+ 		- 0/1 Misclassification error
+
+# Lecture 10.3 — Advice For Applying Machine Learning | Model Selection And Train Validation Test Sets
+ = https://www.youtube.com/watch?v=uoTBdCODGvk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=60
+ 	- (1:43) Model selection
+ 		- degree of polynomial 
+ 		- Choose the model with lowest J_test(THETA)
+ 		- However, this might perform bad for new data (an optimistic estimate of generalization error)
+ 	- (6:37) Solving generalization error problem
+ 		- Split into 3 sets
+ 			- Training (60%)
+ 			- Cross validation (CV) (20%)
+ 			- Testing (20%)
+ 		- Compute Train/validation/test error 
+ 		- Choose the model with lowest J_validation(THETA)
+ 		- Test the model with Test data 
+
+# Lecture 10.4 — Advice For Applying Machine Learning | Diagnosing Bias Vs Variance — [Andrew Ng]
+ = https://www.youtube.com/watch?v=fDQkUN9yw44&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=61
+ 	- (0:52) Bias/Variance 
+ 	- (4:32) Diagnosing Bias/Variance
+ 		- Explain Bias and Variance by "Error vs Degree of Polynomial" plot
+
+# Lecture 10.5 — Advice For Applying Machine Learning | Regularization And Bias Variance — [Andrew Ng]
+ = https://www.youtube.com/watch?v=4MKN-JkNGXY&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=62
+ 	- (0:22) Linear regression with Regularization 
+ 	- (2:30) Choosing the Regularization Parameter LAMBDA
+ 	- (6:57) Bias/Variance as a function of the Regularization Parameter LAMBDA
+
+
+# Lecture 10.6 — Advice For Applying Machine Learning | Learning Curves — [Andrew Ng]
+ = https://www.youtube.com/watch?v=ISBGFY-gBug&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=63
+ 	- Learning Curves 
+ 		- High Bias - More training data will NOT help
+ 		- High Variance - More training data might help
+ 	- Error Gap
+
+# Lecture 10.7 — Advice For Applying Machine Learning | Deciding What To Do Next (Revisited)
+ = https://www.youtube.com/watch?v=yoYA1MFpYRg&index=64&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- Debugging a learning algorithm
+
+ 		- Get more training examples
+			= fixes high variance	
+ 		- Try smaller sets of features
+ 			= fixes high variance 
+ 		- Try getting additional features
+ 			= fixes high bias 
+ 		- Try adding polynomial features
+ 			= fixes high bias
+ 		- Try decreasing LAMBDA
+ 			= fixes high bias
+ 		- Try increasing LAMBDA
+ 			= fixes high variance 
+
+ 	- (3:13) Neural Networks and Overfitting
 
