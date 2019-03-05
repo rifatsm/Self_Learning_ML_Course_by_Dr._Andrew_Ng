@@ -143,5 +143,51 @@
  	- (0:00) [Issue] In the implementation of Backpropagation, we can have some bug. Still the Cost Function would decrease. As a result, it might be hard to detect the bug in the first place. 
  		= Solution: Gradient Checking
  	- (1:52) Numerical Estimation of Gradient 
- 	- 
+ 		- Two-sided error calculation
+ 		- One-sided error calculation
+ 	- (5:00) Parameter Vector
+ 	- (8:58) Implementation Note 
+ 		- Turn off the gradient checking when it is close to backpropagation. 
+ 			- Because gradient checking takes a long time to compute partial derivatives, whereas backpropagation takes much less time
+
+# Why Gradient Checking is slow for Backpropagation?
+ = https://stackoverflow.com/questions/52779783/why-is-gradient-checking-slow-for-back-propagation
+
+
+# Lecture 9.6 — Neural Networks Learning | Random Initialization — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=OF8ocg5mgx0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=55
+ 	- (0:12) Random Initialization (CANNOT have THETA = 0)
+ 	- (1:00) Setting the initial value of THETA to zero does NOT work for Neural Networks
+ 		- Because the activation values (a) are going to be same for THETA = 0
+ 		- Similarly, the delta values (DELTA) are also going to be the same for THETA = 0
+ 		= Therefore, "After each update, parameters corresponding to inputs going into each of two hidden units are identical"
+ 	- (4:40) Random Initialization: Symmetry Breaking 
+
+# Lecture 9.7 — Neural Networks Learning | Putting It Together — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=cObOAIImeVQ&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=56
+ 	- (0:20) Training a Neural Network
+ 		- # of input units: Dimension of features 
+ 		- # of output units: # of classes
+ 		- # of hidden layers: default 1, if > 1 hidden layer, use same # of hidden units in each layer
+ 			- Usually the more hidden units the better
+ 	- (4:07) Training a Neural Network
+ 		- 1. Random Initialization
+ 		- 2. Implement Forward Propagation to get h_THETA(x^(i)) for any x^(i)
+ 		- 3. Implement code to compute Cost Function J(THETA)
+ 		- 4. Implement Backpropagation to compute partial derivatives of J(THETA)
+ 		- 5. Use Gradient Checking. 
+ 			- Then disable Gradient Checking
+ 		- 6.  Use Gradient Descent or Advanced Optimization method to minimize J(THETA)
+ 	- Here, Backpropagation finds the local minima, because J(THETA) is non-convex.
+ 		- Despite this issue, Backpropagation seems to perform quite well. 
+ 	- Backpropagation is able to fit very complex, non-linear functions. 
+
+# Lecture 9.8 — Neural Networks Learning | Autonomous Driving Example — [Andrew Ng]
+ = https://www.youtube.com/watch?v=ppFyPUx9RIU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=57
+
+# Backpropagation explained in 5 levels of difficulty
+ = https://medium.com/coinmonks/backpropagation-concept-explained-in-5-levels-of-difficulty-8b220a939db5
+
+
+
 
