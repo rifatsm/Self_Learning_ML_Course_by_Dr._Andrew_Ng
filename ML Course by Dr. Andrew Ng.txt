@@ -54,6 +54,9 @@
 	- (7:47) Batch Gradient Descent
 
 
+## Why does the Gradient Descent in Linear Regression always converge to Global Minima?
+ = https://wingshore.wordpress.com/2014/11/20/gradient-descent-for-linear-regression/
+
 #########################
 # Linear Algebra Review #
 #########################
@@ -86,7 +89,71 @@
 
 # Lecture 4.1 — Linear Regression With Multiple Variables - (Multiple Features) — [ Andrew Ng]
  = https://www.youtube.com/watch?v=Q4GNLhRtZNc&index=18&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- Multivariate Linear Regression
 
+# Lecture 4.2 — Linear Regression With Multiple Variables -- (Gradient Descent For Multiple Variables)
+ = https://www.youtube.com/watch?v=pkJjoro-b5c&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=19
+
+# Lecture 4.3 — Linear Regression With Multiple Variables | Gradient In Practice | Feature Scaling
+ = https://www.youtube.com/watch?v=r5E2X1JdHAU&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=20
+ 	- Feature Scaling
+ 	- Mean Normalization 
+ 	- Feature Scaling makes Gradient Descent run faster 
+
+# Lecture 4.4 — Linear Regression With Multiple Variables | Gradient In Practice | Learning Rate
+ = https://www.youtube.com/watch?v=CYlR9oYhYuY&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=21
+
+# Lecture 4.5 — Linear Regression With Multiple Variables | Features And Polynomial Regression
+ = https://www.youtube.com/watch?v=Hwj_9wMXDVo&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=22
+
+# Lecture 4.7 — Linear Regression With Multiple Variables | Normal Equation Non Invertibility
+ = https://www.youtube.com/watch?v=FZ1qPqVeMSQ&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=23
+
+# Lecture 4.6 — Linear Regression With Multiple Variables | Normal Equation — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=B-Ks01zR4HY&index=24&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (X.T*X)^(-1)*X.T*y
+ 	- (11:25) Gradient Descent vs Normal Equation
+ 		- if n (# of features) is small (<10,000) use Normal Equation
+ 		- For higher n, use Gradient Descent
+
+
+
+#######################
+# Logistic Regression #
+#######################
+
+
+# Lecture 6.1 — Logistic Regression | Classification — — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=-la3q9d7AKQ&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=32
+
+# Lecture 6.2 — Logistic Regression | Hypothesis Representation — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=t1IT5hZfS48&index=33&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+# Lecture 6.3 — Logistic Regression | Decision Boundary — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=F_VG4LNjZZw&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=34
+ 	- (4:37) Decision Boundary
+ 	- (9:48) Non-linear Decision Boundary
+# Lecture 6.4 — Logistic Regression | Cost Function — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=HIQlmHxI6-0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=35
+ 	- If we use the same cost function for Logistic Regression that we used for Linear Regression, the J(THETA) is going to be a "non-convex" function. This is because of the Sigmoid function hypothesis. 
+ 	- Therefore, we cannot guarrantee that we might find the global minima
+ 	= (4:34) Hence, we use the Logistic regression cost function
+
+# Lecture 6.5 — Logistic Regression | Simplified Cost Function And Gradient Descent — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=TTdcc21Ko9A&index=36&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+# Lecture 6.6 — Logistic Regression | Advanced Optimization — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=6vO3DVJlsK4&index=37&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+# Lecture 6.7 — Logistic Regression | MultiClass Classification OneVsAll — [Andrew Ng]
+ = https://www.youtube.com/watch?v=-EIfb6vFJzc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=38
+
+
+##################
+# Regularization #
+##################
+
+# Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Andrew Ng]
 
 
 
