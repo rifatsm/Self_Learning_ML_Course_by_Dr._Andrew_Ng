@@ -154,7 +154,19 @@
 ##################
 
 # Lecture 7.1 — Regularization | The Problem Of Overfitting — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=u73PU6Qwl1I&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=39
+ 	- (7:38) Addressing Overfitting 
+ 		- Reduce the # of features
+ 		- Regularization
 
+# Lecture 7.2 — Regularization | Cost Function — [ Machine Learning | Andrew Ng | Stanford University]
+ = https://www.youtube.com/watch?v=KvtGD37Rm5I&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=40
+
+# Lecture 7.3 — Regularization | Regularized Linear Regression — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=qbvRdrd0yJ8&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=41
+
+# Lecture 7.4 — Regularization | Regularized Logistic Regression — [ Machine Learning | Andrew Ng]
+ = https://www.youtube.com/watch?v=IXPgm1e0IOo&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=42
 
 
 
