@@ -225,6 +225,8 @@
 # Neural Networks Representation #
 ##################################
 
+Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-concepts-for-beginners-in-deep-learning/
+
 # Lecture 8.1 — Neural Networks Representation | Non Linear Hypotheses — [Andrew Ng] 
  = https://www.youtube.com/watch?v=1ZhtwInuOD0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=43
  	

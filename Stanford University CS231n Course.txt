@@ -1,0 +1,23 @@
+#####################################
+# Stanford University CS231n Course #
+#####################################
+
+
+# Lecture 1 | Introduction to Convolutional Neural Networks for Visual Recognition
+ = https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+
+# (incomplete) Lecture 2 | Image Classification 
+ = https://www.youtube.com/watch?v=OoUX-nOEjG0&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=2
+
+# Lecture 4 | Introduction to Neural Networks
+ = https://www.youtube.com/watch?v=d14TUNcbn1k&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=4
+	- (6:00) Back Propagation
+	- (1:4:22) Full Implementation of training a 2-layer Neural Network (Code ~20 lines)
+	- (1:10:25) Activation Functions
+
+# Lecture 5 | Convolutional Neural Networks
+ = https://www.youtube.com/watch?v=bNb2fEVKeEo&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=5
+ 	- (14:35) CNN
+ 		- (N-F)/stride + 1 
+ 	- (45:25) Summary of Conv Layer
+ 	-  
