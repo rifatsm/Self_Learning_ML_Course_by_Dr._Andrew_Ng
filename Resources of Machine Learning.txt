@@ -1,0 +1,230 @@
+Resources of Machine Learning.txt
+
+
+##########################
+# Support Vector Machine #
+##########################
+
+### Support Vector Machine (SVM) - Fun and Easy Machine Learning
+ = https://www.youtube.com/watch?v=Y6RRHw9uN9o
+Here is a quick summary of this video:
+
+-SVM can be used to do binary classification
+-SVM finds a hyper-plane (line in 2d, plane in 3d, etc) that separates its training data in such a way that the distance between the hyper plane and the closest points from each class is maximized
+-once SVM finds this hyper-plane, you can classify new data points by seeing which side of this hyper-plane they land on
+
+-SVM can only be used on data that is linearly separable (i.e. a hyper-plane can be drawn between the two groups)
+-Fear not though, as a common way to make data linearly separable is to map it to a higher dimension (but beware, as this is computationally expensive).
+-You can map it however you want, but there are established ways to do it, they are called Kernels . By using a combination of these Kernels, and tweaking their parameters, you'll most likely achieve better results than making up your own way :P
+
+-The really cool thing about SVMs are that you can use them when you have very little data compared to the number of features each of your data points has. In other words, when the number of data to the number of features per data ratio is low. Normally when this ratio is low, you experience overfitting, but since SVMs only use a few of your data points to create the hyper-plane in the first place, it doesn't really care that you give it such little data. Note however that accuracy of predictions is reduced when you use very little data.
+-SVMs simply tell you what class a new data point falls in, not the probability that it's in that class. This is of course a disadvantage.
+
+#######################
+# k-Nearest Neighbors #
+#######################
+
+# K - Nearest Neighbors - KNN Fun and Easy Machine Learning
+ = https://www.youtube.com/watch?v=MDniRwXizWo
+ 	- (0:20) Classification - Instant-based Learning/Lazy Learning
+ 		- Computation is delayed until classification
+ 	- (2:55) Proximity Metrics
+ 	- (3:10) Applications
+ 	- (4:18) Advantages
+ 	- (4:33) Disadvantages
+
+# StatQuest: K-nearest neighbors, Clearly Explained
+ = https://www.youtube.com/watch?v=HVXime0nQeI
+
+####################
+# Cross Validation #
+####################
+
+# Machine Learning Fundamentals: Cross Validation
+
+######################
+# k-Means Clustering #
+######################
+
+# K - Means Clustering - Fun and Easy Machine Learning
+ = https://www.youtube.com/watch?v=3vHqmPF4VBA
+
+##############################
+# Naive Bayes Classification #
+##############################
+
+# Naïve Bayes Classifier - Fun and Easy Machine Learning
+ = https://www.youtube.com/watch?v=CPqOCI0ahss
+
+######################
+# Linear Regression: #
+######################
+
+# Linear Regression - Machine Learning Fun and Easy
+ = https://www.youtube.com/watch?v=CtKeHnfK5uA
+# Linear Regression Algorithm | Linear Regression in Python | Machine Learning Algorithm | Edureka
+ = https://www.youtube.com/watch?v=E5RjzSK0fvY
+
+# Machine Learning Fundamentals: Bias and Variance
+ = https://www.youtube.com/watch?v=EuBBz3bI-aA
+
+# Linear Regression in Python:
+ = https://www.geeksforgeeks.org/linear-regression-python-implementation/
+
+# Technical Explanation of Cost Function and Gradiant Descent
+ = https://medium.com/@lachlanmiller_52885/understanding-and-calculating-the-cost-function-for-linear-regression-39b8a3519fcb
+
+
+########################
+# Logistic Regression: #
+########################
+
+# StatQuest: Logistic Regression
+ = https://www.youtube.com/watch?v=yIYKR4sgzI8
+ 	- (3:38) Logistic Regression predicts True/False (Binary) unlike continuous values in Linear Regression
+ 	- (3:50) We can get the probability from Logistic Regression
+ 	- (5:08) Logistic Regression can work with both continuous data and/or discrete data
+ 	- (6:13) Linear vs Logistic Regression
+ 		- Linear Regression (least squared R^2)
+ 		- Logistic Regression (maximum likelihood - probability)
+ 	- (8:05) Logistic Regression Summary 
+ 		- Used for Classification 
+ 		- Can use different types of data (continuous/discrete)
+ 		- Assess which variables are useful and which are not 
+
+# Logistic Regression Details Pt1: Coefficients
+ = https://www.youtube.com/watch?v=vN5cNN2-HWE 	
+ 	- (5:00) Converting Logistic Probability (0 to 1 in Y-axis) to Log(Odds) (+Infinity to -Infinity)
+ 	- (8:15) Coefficients of Logistic Regression explained
+ 	- (10:45) Example 
+ 	- (18:00) How Linear Model Concepts for t-tests (ANOVA) apply for Logistic Regression
+
+# Logistic Regression Details Pt 2: Maximum Likelihood
+ = https://www.youtube.com/watch?v=BfKanl1aSG0
+ 	- (2:45) Maximum Likelihood
+ 	- (3:50) Formulae: Probability to Log(Odds), and Log(Odds) to Probability
+ 	- (7:25) Log Likelihood
+ 	- (8:00) Determining Maximum Likelihood
+
+# Logistic Regression Details Pt 3: R-squared and p-value
+ = https://www.youtube.com/watch?v=xxFYro8QuXA
+ 	- (5:30) Calculating R^2 for Logistic Regression
+ 	- (7:45) Example of a Not Good Predictor in Logistic Regression (Worst Fit) R^2 = 0
+ 	- (9:30) Example of a Good Predictor in Logistic Regression (Best Fit) R^2 = 1 (high value)
+ 	- (12:00) Calculating P-Value for Logistic Regression (Chi-Squared Value)
+
+# Regularization
+ = https://www.youtube.com/watch?v=Q81RR3yKn30
+ 	- Ridge Regression is done to introduce Bias to the Model when we have small sample of training data, which, otherwise, can lead to High Variance to the Model
+ 	- (4:35) Ridge Regression
+ 	- (8:40) Selecting best LAMBDA (10 fold Cross Validation)
+ 	- (14:30) Ridge Regression penalty contains all the parameters except the Y-Intercept
+ 	- (15:25) How Ridge Regression can be used to small training sample for create an optimize Model (by Cross Validation)
+
+# Regularization Part 2: Lasso Regression
+ = https://www.youtube.com/watch?v=NGf0voTMlcs
+ 	- (1:05) Quick Review: Ridge Regression
+ 	- (2:40) Similarity in Ridge Regression and Lasso Regression
+ 	- (4:53) Difference in Ridge Regression and Lasso Regression
+ 		- Ridge Regression: Shrink the slope asymtotically close to ZERO
+ 		- Lasso Regression: Shrink the slope all the way to ZERO
+ 	- (5:42) Example 
+ 		- Lasso Regression can completely exclude useless variables from equation
+
+# Regularization Part 3: Elastic Net Regression
+ = https://www.youtube.com/watch?v=1dKRdX9bfIo
+ 	- Combination of Ridge Regression and Lasso Regression
+ 	
+# Ridge Regression vs Lasso Regression
+ = https://codingstartups.com/practical-machine-learning-ridge-regression-vs-lasso/
+ = https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-ridge-lasso-regression-python/
+ = https://towardsdatascience.com/regularization-in-machine-learning-connecting-the-dots-c6e030bfaddd
+ = https://beta.vu.nl/nl/Images/werkstuk-fonti_tcm235-836234.pdf
+
+ 
+
+#########################
+# Google Cloud Platform #
+#########################
+
+# Intro to machine learning on Google Cloud Platform (Google I/O '18)
+ = https://www.youtube.com/watch?v=gVz9jKE_9iU
+
+# PyTorch on Google Cloud Platform (GCP)
+ = https://medium.com/udacity-pytorch-challengers/pytorch-on-google-cloud-platform-gcp-66644bfc07eb
+
+# Real-time object detection with YOLO
+ = https://medium.com/@jonathan_hui/real-time-object-detection-with-yolo-yolov2-28b1b93e2088
+ = (GitHub) https://github.com/pjreddie/darknet/wiki/YOLO:-Real-Time-Object-Detection
+
+# YOLO on Android App:
+ = https://groups.google.com/forum/#!topic/darknet/lC16i3k9CHc
+
+# Card Detection on Android using YOLO:
+ = https://www.tooploox.com/blog/card-detection-using-yolo-on-android
+
+# [Idea] Can we use YOLO to detect firearms and/or emergency situations? 
+
+# MS Berlin 2018 talk regarding Holosense:
+ = https://kodierer.blogspot.com/2018/06/content-for-unite-berlin-autotech.html
+
+# Brendon Rohrer Deep Neural Network Tutorial:
+
+# How reinforcement learning works in Becca 7
+ = https://www.youtube.com/watch?v=EXs3nHwLIt0
+ 	- Different types of ML:
+	 	- Regression
+	 	- Classification
+	 	- Clustering 
+	 	- Anomaly detection 
+	 	- Reinforcement Learning 
+
+
+ = DNN: https://www.youtube.com/watch?v=ILsA4nyG7I0
+ = CNN: https://www.youtube.com/watch?v=FmpDIaiMIeA
+ 	- Filtering 
+ 		- Convolution 
+ 	- Pooling
+ 	- Normalization
+ 		- ReLU
+ 	- Fully connected layers
+ 	
+# Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM)
+ = RNN & LSTM: https://www.youtube.com/watch?v=WCUNPb-5EYI
+ 	- Identifying pictures problems
+ 		- Example: Detecting Cat images in the internet
+ 		= CNN
+ 	- Sequence to sequence translation 
+ 		- Examples: Speech, text, one language to another
+ 		= RNN, particularly LSTM
+
+# State-of-art of Object Detection: 
+ = https://hackernoon.com/is-object-detection-a-done-deal-59a7be913fd2
+
+# CS231 course GitHub: 
+ = http://cs231n.github.io/convolutional-networks/
+
+# Computer Vision API Azure:
+
+	Distill actionable information from images
+
+	5,000 transactions, 20 per minute.
+
+	Endpoints
+
+	https://westcentralus.api.cognitive.microsoft.com/vision/v1.0
+
+	https://westcentralus.api.cognitive.microsoft.com/vision/v2.0
+
+	Key 1: d8fb94d2ef23473ba0156a684eac27a5
+
+	Key 2: 9c8817aaae954febb45694047bed6663
+
+# YOLO video Object detection:
+ = https://github.com/spmallick/learnopencv/tree/master/ObjectDetection-YOLO
+
+# Comparision between various Object Detection Algorithms:
+	- R-CNN, Fast R-CNN, Faster R-CNN, YOLO 
+	= https://towardsdatascience.com/r-cnn-fast-r-cnn-faster-r-cnn-yolo-object-detection-algorithms-36d53571365e
+
+

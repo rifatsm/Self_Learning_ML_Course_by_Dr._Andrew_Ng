@@ -12,7 +12,7 @@
 # Lecture 4 | Introduction to Neural Networks
  = https://www.youtube.com/watch?v=d14TUNcbn1k&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=4
 	- (6:00) Back Propagation
-	- (1:4:22) Full Implementation of training a 2-layer Neural Network (Code ~20 lines)
+	- (1:04:22) Full Implementation of training a 2-layer Neural Network (Code ~20 lines)
 	- (1:10:25) Activation Functions
 
 # Lecture 5 | Convolutional Neural Networks
@@ -20,4 +20,49 @@
  	- (14:35) CNN
  		- (N-F)/stride + 1 
  	- (45:25) Summary of Conv Layer
- 	-  
+ 	- (47:40) Conv Layer in Torch
+ 	- (47:50) Conv Layer in Caffe
+ 	- (54:25) Pooling Layer
+ 	- Link to Andrej Karpathy's CIFAR-10 demo: https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html
+
+# Lecture 6 | Training Neural Networks I
+ = https://www.youtube.com/watch?v=wEoyxE0GP2M&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=6
+ 	- (5:00) Activation Functions
+ 		- (5:05) Sigmoid 
+ 		- (13:05) tanh
+ 		- (13:37) ReLU 
+ 		- (21:50) Leaky ReLU
+ 		- (22:30) Parametric Rectifier - PReLU
+ 		- (23:00) Exponential Linear Unit - ELU
+ 		- (25:15) Maxout "Neuron"
+ 	- (27:40) Step 1: Preprocessing Data 
+ 	- (34:30) Weight Initialization
+ 		- (44:45) Xavier Initialization
+ 		- (48:40) Literature in Proper Initialization
+ 	- (48:55) Batch Normalization
+
+# Lecture 7 | Training Neural Networks II
+ = https://www.youtube.com/watch?v=_JB0AO7QxSA&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=7
+ 	- (23:25) SGD + Momentum (Adding velocity to Gradient Descent to counter Saddle points) (SGD = Stochastic Gradient Descent)
+ 	- (27:45) Nesterove Momentum
+ 	- (33:17) AdaGrad 
+ 		- Good for Convex, bad for non-convex
+ 	- (35:45) RMSProp (modification to AdaGrad)
+ 	- (38:55) Adam
+ 	- (55:25) Regularization
+ 		- (55:45) Regularization: Dropout
+ 	- (1:04:45) Data Augmentation
+ 	- (1:09:40) Transfer Learning
+
+# Lecture 10 | Recurrent Neural Networks
+ = https://www.youtube.com/watch?v=6niqTuYFZLQ&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=10
+ 	- (9:30) Recurrent Neural Networks: Process Sequence
+ 	- (13:36) Recurrent Neural Network
+ 	- (42:45) Image Captioning
+ 	- (44:35) Image Captioning with Attention
+ 	- (47:55) Visual Question Answering 
+ 	- (51:25) Vanilla RNN Gradient Flow
+ 	- (55:45) Long Short Term Memory (LSTM)
+
+# Lecture 15 | Efficient Methods and Hardware for Deep Learning
+ = https://www.youtube.com/watch?v=eZdOkDtYMoo&index=15&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
