@@ -433,3 +433,50 @@ Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-con
 
  	- (3:13) Neural Networks and Overfitting
 
+
+##################################
+# Machine Learning System Design #
+##################################
+
+# Lecture 11.1 — Machine Learning System Design | Prioritizing What To Work On — [ Andrew Ng]
+ = https://www.youtube.com/watch?v=HREeLryOh4Q&index=65&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- Spam Classification
+
+# Lecture 11.2 — Machine Learning System Design | Error Analysis — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=k1JGvqr56Yk&index=66&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	
+ 	- (0:20) Recommended Approach (on how to design an ML System)
+
+	 	- 1. Implement a simple algorithm and test it on cross-validation 
+	 	- 2. Plot learning curves to decide if more data, more features, etc. are likely to help
+	 	- 3. Error Analysis 
+	
+	- (3:00) Error Analysis
+
+# Lecture 11.3 — Machine Learning System Design | Error Metrics For Skewed Classes — [Andrew Ng]
+ = https://www.youtube.com/watch?v=wGw6R8AbcuI&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=67
+ 	- Skewed Classes
+ 	- (4:10) Precision/Recall
+
+# Lecture 11.4 — Machine Learning System Design | Trading Off Precision And Recall — [Andrew Ng]
+ = https://www.youtube.com/watch?v=W5meQnGACGo&index=68&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- Trading off Precision and Recall
+ 	- (7:05) F_1 Score (F Score)
+ 		- Higher F Score Better 
+
+# Lecture 11.5 — Machine Learning System Design | Data For Machine Learning — [Andrew Ng]
+ = https://www.youtube.com/watch?v=5T77nG7YJhk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=69
+ 	- (0:00) How much data to train on? 
+ 		- Use a Learning Algorithm with many parameters (e.g. Logistic regression/Linear regression with many features; Neural Network with many hidden units) -> Low bias
+ 		- Use a very large training set (unlikely to overfit) -> Low variance 
+
+
+##############
+# Clustering #
+############## 
+
+# Lecture 13.1 — Clustering | Unsupervised Learning | Introduction — [ Andrew Ng ]
+ = https://www.youtube.com/watch?v=Ev8YbxPu_bQ&index=76&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
+# 
+

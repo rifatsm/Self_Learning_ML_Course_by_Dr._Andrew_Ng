@@ -54,6 +54,24 @@
  	- (1:04:45) Data Augmentation
  	- (1:09:40) Transfer Learning
 
+# Lecture 8 | Deep Learning Software
+ = https://www.youtube.com/watch?v=6SlgtELqOWc&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=8
+ 	- (3:45) CPU vs GPU
+ 	- (5:35) NVIDIA vs AMD
+ 	- (12:00) Programming GPUs
+ 		- CUDA - C-like code runs directly on GPUs
+ 		- OpenCL - similar to CUDA; run on anything
+ 	- (24:00) Computational Graphs
+ 		- Numpy only runs in CPU. To solve this PyTorch and TensorFlow both allow to calculate operations and Gradient on GPUs.
+ 	- (25:38) TensorFlow code to calculate Gradient
+ 	- (26:35) PyTorch to calculate Gradient
+ 	- (27:40) TensorFlow: Neural Net
+ 	- (47:45) Kerras: High-Level Wrapper 
+ 	- (49:15) TensorFlow: Other High-Level Wrappers
+ 	- (51:20) PyTorch
+ 	- (1:02:25) Static (TensorFlow) vs Dynamic (PyTorch) Computational Graph
+ 	- (1:12:40) Caffe
+
 # Lecture 10 | Recurrent Neural Networks
  = https://www.youtube.com/watch?v=6niqTuYFZLQ&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=10
  	- (9:30) Recurrent Neural Networks: Process Sequence
@@ -64,5 +82,11 @@
  	- (51:25) Vanilla RNN Gradient Flow
  	- (55:45) Long Short Term Memory (LSTM)
 
+# Lecture 14 | Deep Reinforcement Learning
+ = https://www.youtube.com/watch?v=lvoHnicueoE&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=14
+ 	<Watched until (6.25)>
+ 	- (6:25) Markov Decision Process
+
 # Lecture 15 | Efficient Methods and Hardware for Deep Learning
  = https://www.youtube.com/watch?v=eZdOkDtYMoo&index=15&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+ 	<Watched until (41.27)>
