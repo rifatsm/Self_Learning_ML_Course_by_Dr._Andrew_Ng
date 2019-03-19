@@ -251,4 +251,9 @@ Here is a quick summary of this video:
 # Training YOLOv3 : Deep Learning based Custom Object Detector
  = https://www.learnopencv.com/training-yolov3-deep-learning-based-custom-object-detector/
 
+###########################
+# Creating Neural Network #
+###########################
 
+# Fully Connected Layer
+ = https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/fc_layer.html
