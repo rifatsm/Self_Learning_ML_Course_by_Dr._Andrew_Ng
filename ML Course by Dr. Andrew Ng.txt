@@ -485,5 +485,21 @@ Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-con
 
 # Lecture 13.3 — Clustering | Optimization Objective — [ Machine Learning | Andrew Ng ]
  = https://www.youtube.com/watch?v=LvgcfMOyREE&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=78
- 	<just started>
+
+# Lecture 13.4 — Clustering | Random Initialization — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=PpH_hv55GNQ&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=79
+ 	- Try multiple random initialization
+
+# Lecture 13.5 — Clustering | Choosing The Number Of Clusters — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=lbR5br5yvrY&index=80&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+ 	- (1:35) Elbow Method (Choosing "k")
+
+
+
+############################
+# Dimensionality Reduction #
+############################
+
+# Lecture 14.1 — Dimensionality Reduction Motivation I | Data Compression — [ Andrew Ng ]
+ = https://www.youtube.com/watch?v=Zbr5hyJNGCs&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=81
 
