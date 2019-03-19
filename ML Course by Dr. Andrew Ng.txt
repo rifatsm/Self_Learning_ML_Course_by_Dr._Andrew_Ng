@@ -478,5 +478,12 @@ Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-con
 # Lecture 13.1 — Clustering | Unsupervised Learning | Introduction — [ Andrew Ng ]
  = https://www.youtube.com/watch?v=Ev8YbxPu_bQ&index=76&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
 
-# 
+# Lecture 13.2 — Clustering | KMeans Algorithm — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=hDmNF9JG3lo&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=77
+ 	- (3:40) K-means Algorithm
+ 	- (10:00) K-means for non-separated clusters
+
+# Lecture 13.3 — Clustering | Optimization Objective — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=LvgcfMOyREE&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=78
+ 	<just started>
 
