@@ -502,4 +502,49 @@ Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-con
 
 # Lecture 14.1 — Dimensionality Reduction Motivation I | Data Compression — [ Andrew Ng ]
  = https://www.youtube.com/watch?v=Zbr5hyJNGCs&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=81
+ 	- Data Compression
+
+# Lecture 14.2 —Dimensionality Reduction Motivation II | Visualization — [ Andrew Ng ]
+ = https://www.youtube.com/watch?v=cnCzY5M3txk&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=82
+ 	- Data Visualization
+
+# Lecture 14.3 — Dimensionality Reduction | Principal Component Analysis | Problem Formulation
+ = https://www.youtube.com/watch?v=T-B8muDvzu0&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=83
+ 	- Principal Component Analysis (PCA)
+ 	- (6:30) PCA vs Linear Regression
+
+# Lecture 14.4 — Dimensionality Reduction | Principal Component Analysis Algorithm — [ Andrew Ng ]
+ = https://www.youtube.com/watch?v=rng04VJxUt4&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=84
+ 	- (0:15) Data Processing 
+ 		- Feature Scalling/Mean Normalization
+ 	- (5:05) PCA Algorithm
+ 		- Singular Value Decomposition - SVD
+
+# Lecture 14.5 — Dimensionality Reduction | Choosing The Number Of Principal Components
+ = https://www.youtube.com/watch?v=5aHWplWElcc&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=85
+ 	- Choosing # of Principal Components (k)
+
+# Lecture 14.6 — Dimensionality Reduction | Reconstruction From Compressed Representation
+ = https://www.youtube.com/watch?v=R8zHEyT2R4E&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=86
+ 	- Decompress from PCA
+
+# Lecture 14.7 — Dimensionality Reduction | Advice For Applying PCA — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=xI9-I-gcwaw&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN&index=87
+ 	- Supervised Learning Speedup
+ 	- (5:40) Applications of PCA
+ 		- Compression
+ 			- Reduce storage
+ 			- Speed up Algorithm
+ 		- Visualization
+ 	- Bad use of PCA
+ 		- To prevent Overfitting
+
+
+#####################
+# Anomaly Detection # 
+#####################
+
+# Lecture 15.1 — Anomaly Detection Problem | Motivation — [ Machine Learning | Andrew Ng ]
+ = https://www.youtube.com/watch?v=086OcT-5DYI&index=88&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
+
 
