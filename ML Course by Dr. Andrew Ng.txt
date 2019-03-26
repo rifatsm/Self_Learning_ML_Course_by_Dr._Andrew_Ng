@@ -547,4 +547,6 @@ Terminology: https://www.analyticsvidhya.com/blog/2017/05/25-must-know-terms-con
 # Lecture 15.1 — Anomaly Detection Problem | Motivation — [ Machine Learning | Andrew Ng ]
  = https://www.youtube.com/watch?v=086OcT-5DYI&index=88&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN
 
+ 
+
 
