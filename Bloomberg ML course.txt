@@ -69,3 +69,15 @@ Link: https://bloomberg.github.io/foml/#lectures
  	- (41:10) Convergence of EM
  	- (45:30) Variations in EM
  	- (47:15) Generalized EM - GEM
+
+29. Backpropagation and the Chain Rule
+ = https://www.youtube.com/watch?v=XIpyEvLv93A
+ 	- (1:23) Learning with Backpropagation
+ 	- (1:45) Partial Derivatives
+ 	- (3:45) Chain Rule 
+ 	- (6:25) Example: Least Square Regression
+ 	- (6:40) Computation Graph and Intermediate Variables
+ 	- (10:50) Ridge Regression 
+ 	- (13:40) Partial Derivatives on Computation Graph
+ 	- (17:40) General Backpropagation
+ 	- (25:50) Running Backpropagation 
