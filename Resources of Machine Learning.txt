@@ -261,6 +261,8 @@ Here is a quick summary of this video:
 # Fully Connected Layer
  = https://leonardoaraujosantos.gitbooks.io/artificial-inteligence/content/fc_layer.html
 
+# Softmax Regression (C2W3L08) - Dr. Andrew Ng
+ = https://www.youtube.com/watch?v=LLux1SW--oM
 
 
 Check out Intel OpenVINO
