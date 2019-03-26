@@ -264,5 +264,8 @@ Here is a quick summary of this video:
 # Softmax Regression (C2W3L08) - Dr. Andrew Ng
  = https://www.youtube.com/watch?v=LLux1SW--oM
 
+# Training Softmax Classifier (C2W3L09) 
+ = https://www.youtube.com/watch?v=ueO_Ph0Pyqk
+
 
 Check out Intel OpenVINO
