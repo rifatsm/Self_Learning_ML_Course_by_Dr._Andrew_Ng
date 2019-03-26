@@ -1,3 +1,71 @@
-Bloomberg ML course.txt
+#######################
+# Bloomberg ML course #
+#######################
 
 Link: https://bloomberg.github.io/foml/#lectures
+
+
+26. Gaussian Mixture Models
+ = https://www.youtube.com/watch?v=I9dfOMAhsug 
+ 	- Clustering Model 
+ 	- Probability Model 
+ 	- (3:05) Parameters
+ 	- (6:30) Joint Distribution
+ 	- (6:40) Latent Variable Model
+ 	- (7:35) The GMM "Inference" Problem
+ 	- (13:38) The GMM Marginal Distribution 
+ 	- (15:00) Mixture Distribution (or Mixture Models)
+ 	- (16:30) The GMM "Learning" Problem
+ 	- (16:50) Estmating/Learning the GMM
+ 		- Maximum Likelihood
+ 	- (20:14) Review: Estimating a Gaussian Distribution 
+ 	- (22:30) Properties of the GMM Log-Likelihood
+ 	- (24:10) Issues with MLE for GMM
+ 		- (24:20) Identifiability Issues for GMM
+ 		- (26:10) Singularities for GMM
+ 	- (27:45) Gradient Descent/SGD for GMM
+ 		- Non-convex function. Prone to getting Local Minima.
+ 		- M matrix is contraint. A tricky solution is to convert it to MM.T - this is a uncontraint matrix.
+ 		- Getting very small variance can make the SGD very sensitive to step change in the mean 
+ 	- (35:50) The EM Algorithm for GMM
+ 	- (36:40) MLE for Gaussian Model
+ 	- (41:00) Estimating a Fully-Observed GMM
+ 		- Hard assignment: assigning a data point to a cluster
+ 		- Soft assignment: assigning the probability of a data point to a cluster 
+ 	- (42:00) Cluster Responsibilities
+ 	- (43:40) The EM Algorithm for GMM: Overview
+ 	- (48:20) EM for GMM: Visualization 
+ 	- (49:50) EM: Relation to K-means 
+ 		- If we take SIGMA^2 -> 0 in EM, then we get K-means (Soft assignments -> Hard assignments)
+ 		- Rescaling 
+
+27. EM Algorithm for Latent Variable Models
+ = https://www.youtube.com/watch?v=lMShR1vjbUo
+ 	- (0:50) General Latent Variable Model
+ 	- (2:20) Complete and Incomplete Data
+ 	- (2:35) Our Objectives
+ 		- The "Learning" Problem
+ 		- The "Inference" Problem
+ 		- For GMM, learning is hard, inference is easy
+ 	- (4:00) Log-Likelihood Terminology
+ 		- Log-Likelihood
+ 		- Marginal Likelihood
+ 		- Joint Distribution
+ 		- Marginal Log-Likelihood
+ 	- (4:50) The EM Algorithm: Key Idea
+ 	- (7:50) Jensen's Inequality
+ 	- (9:30) Kullback-Leibler Divergence (KL Divergence)
+ 	- (12:20) Gibb's Inequality
+ 	- (13:20) Lower Bound for Marginal Log-Likelihood
+ 		- (15:30) White Board Visualization 
+ 	- (21:30) The ELBO - Evidence Lower Bound
+ 	- (23:25) The Family of Lower Bounds
+ 	- (24:10) EM: Coordinate Ascent on Lower Bound 
+ 	- (26:20) EM: Next Steps
+ 	- (27:00) ELBO in terms of KL Divergence and Entropy
+ 	- (34:50) General EM Algorithm
+ 	- (36:20) Does EM work?
+ 	- (37:50) Global Maxima
+ 	- (41:10) Convergence of EM
+ 	- (45:30) Variations in EM
+ 	- (47:15) Generalized EM - GEM
