@@ -269,3 +269,19 @@ Here is a quick summary of this video:
 
 
 Check out Intel OpenVINO
+
+# EM vs Gradient Descent:
+ = http://faculty.washington.edu/yenchic/18A_stat516/Lec8_EM_SGD.pdf
+ = https://cliffstats.weebly.com/almost-surely-degenerate-ramblings/the-em-algorithm-vs-gradient-ascent-a-case-study
+
+# EM vs K-means:
+ = (Check out the Conclusion) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4433949/
+ = https://www.quora.com/What-is-the-difference-between-K-means-and-the-mixture-model-of-Gaussian/answer/Phanindra-Varma-1
+
+
+Shuffle Net, Mobile Net Google Object Detection
+Lower resolution 
+Hardware:
+	- ARC (Send request) Not sure about real-time execution
+	- Heavy Machine 
+

@@ -82,9 +82,56 @@
  	- (51:25) Vanilla RNN Gradient Flow
  	- (55:45) Long Short Term Memory (LSTM)
 
+
+# Lecture 13 | Generative Models
+ = https://www.youtube.com/watch?v=5WoItGTWV54
+ 	- (1:15) Supervised vs Unsupervised Learning
+ 		- (1:15) Supervised Learning
+ 		- (2:05) Unsupervised Learning
+ 			- Clustering (KMeans)
+ 			- Dimensionality Reduction (PCA)
+ 			- Feature Learning (Autoencoders)
+ 			- Density Estimation (1D -> 2D)
+ 	- (5:35) Generative Models
+ 	- (9:15) Fully Visible Belief Network
+ 	- (11:05) PixelRNN
+ 	- (12:25) PixelCNN
+ 	- (17:35) Generation Samples
+ 	- (18:15) PixelRNN and PixelCNN (Pros and Cons)
+ 	- (19:35) Variational Autoencoders (VAE)
+ 	- (20:50) Autoencoders: Background
+ 		- (22:20) Why dimension reduction? 
+ 			= Because we want the most important and meaningful features (z) among all the features (x)
+ 			= We want to get the lowest # of z features that can successfully reconstruct input data X
+ 			= Use L2 Loss function to see how similar are the reconstructed images
+ 	- (27:20) Variational Autoencoders (VAE)
+ 		- (30:50) What is the problem with maximizing probability in VAE?
+ 			= The intigral part is not tractible (i.e. it is not easy to solve)
+ 	- (31:00) Variational Autoencoders: Intractibility
+ 	- (35:25) VAE Log data likelihood calculation 
+ 	- (44:00) VAE Generating Data (Examples: Numbers, Faces)
+ 	- (47:15) VAE Pros and Cons
+ 	- (50:00) GANs Generative Adversarial Networks 
+ 	- (52:40) Training GANs: Two Player Game
+ 		- (59:00) Gradient ascent and Gradient descent
+ 	- (1:03:00) Full GANs Algorithm 
+ 	- (1:06:20) GANs Generated Samples
+ 		- Numbers, Faces, CIFAR-10
+ 	- (1:07:20) GANs: Convolutional Architectures
+ 		- (1:08:00) The samples are better using GANs+CNN
+ 	- (1:09:00) GANs: Interpretable Vector Math
+ 	- (1:10:20) 2017: Year of the GAN
+ 	- (1:13:15) The GAN Zoo
+ 	- (1:14:00) GANs: Pros and Cons
+ 	- 
+
+
+ 	- Extra Materials: 
+	# Variational Autoencoders (VAE) Intuition and Code (Keras):
+ 		= https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/
+
 # Lecture 14 | Deep Reinforcement Learning
  = https://www.youtube.com/watch?v=lvoHnicueoE&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=14
- 	<Watched until (6.25)>
  	- (6:25) Markov Decision Process
 
 # Lecture 15 | Efficient Methods and Hardware for Deep Learning
