@@ -123,8 +123,6 @@
  	- (1:10:20) 2017: Year of the GAN
  	- (1:13:15) The GAN Zoo
  	- (1:14:00) GANs: Pros and Cons
- 	- 
-
 
  	- Extra Materials: 
 	# Variational Autoencoders (VAE) Intuition and Code (Keras):
@@ -132,7 +130,18 @@
 
 # Lecture 14 | Deep Reinforcement Learning
  = https://www.youtube.com/watch?v=lvoHnicueoE&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&index=14
+ 	- (2:30) Reinforcement Learning
+ 		- (3:00) Cart-Pole Problem
+ 		- Robot Locomotion
+ 		- Atari Games 
+ 		- Go
  	- (6:25) Markov Decision Process
+ 	- (15:50) Q-Learning
+ 		- Deep Q-Learning
+ 	- (37:25) Variance Reduction
+ 	- (43:10) Actor-Critic Algorithm
+ 	- (46:30) Reinforcement in Action: Recurrent Attention Model (RAM)
+ 	- (56:10) More Policy Gradient: AlphaGo 
 
 # Lecture 15 | Efficient Methods and Hardware for Deep Learning
  = https://www.youtube.com/watch?v=eZdOkDtYMoo&index=15&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
